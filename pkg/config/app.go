@@ -16,12 +16,11 @@ var (
 )
 
 func Connect() {
-	pwd, err := os.Getwd()
+	pwd, err := os.Getwd() //
 	if err != nil {
 		panic(err)
 	}
 
-	//use ../.env because main.go inside /cmd
 	err = godotenv.Load(filepath.Join(pwd, "../../pkg/config/.env"))
 	if err != nil {
 		fmt.Println("Error loading .env file")
