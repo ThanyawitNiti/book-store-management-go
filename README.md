@@ -23,4 +23,4 @@ PUT /books/{id} - Update an existing book by its ID.<br>
 DELETE /books/{id} - Delete a book by its ID.<br>
 
 ## Tutorial Reference
-This project is based on the freeCodeCamp.org tutorial:⌨️ Golang With MYSQL Book Management System
+This project is based on the freeCodeCamp.org tutorial:[⌨️ Golang With MYSQL Book Management System](https://www.youtube.com/watch?v=jFfo23yIWac) 
